@@ -12,7 +12,6 @@
   <modules>
     <module>okjiaoyu-util</module>
     <module>okjiaoyu-teacherspace</module>
-      <module>okjiaoyu-dubbo</module>
   </modules>
 
   <name>Maven</name>

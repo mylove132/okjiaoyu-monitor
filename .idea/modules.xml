@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/okjiaoyu-dubbo/okjiaoyu-dubbo.iml" filepath="$PROJECT_DIR$/okjiaoyu-dubbo/okjiaoyu-dubbo.iml" />
       <module fileurl="file://$PROJECT_DIR$/okjiaoyu-monitor.iml" filepath="$PROJECT_DIR$/okjiaoyu-monitor.iml" />
       <module fileurl="file://$PROJECT_DIR$/okjiaoyu-teacherspace/okjiaoyu-teacherspace.iml" filepath="$PROJECT_DIR$/okjiaoyu-teacherspace/okjiaoyu-teacherspace.iml" />
       <module fileurl="file://$PROJECT_DIR$/okjiaoyu-util/okjiaoyu-util.iml" filepath="$PROJECT_DIR$/okjiaoyu-util/okjiaoyu-util.iml" />

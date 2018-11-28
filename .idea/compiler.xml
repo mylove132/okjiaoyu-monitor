@@ -6,7 +6,6 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="okjiaoyu-dubbo" />
         <module name="okjiaoyu-teacherspace" />
         <module name="okjiaoyu-util" />
       </profile>
