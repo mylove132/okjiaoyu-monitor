@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="2" total="3" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="login case" duration-ms="1097" started-at="2018-11-22T10:08:53Z" finished-at="2018-11-22T10:08:54Z">
+    <groups>
+    </groups>
+    <test name="login" duration-ms="1097" started-at="2018-11-22T10:08:53Z" finished-at="2018-11-22T10:08:54Z">
+      <class name="com.okjiaoyu.qa.teacherspace.cases.BaseCase">
+        <test-method status="PASS" signature="initHelper()[pri:0, instance:com.okjiaoyu.qa.teacherspace.cases.BaseCase@6e8dacdf]" name="initHelper" is-config="true" duration-ms="3358" started-at="2018-11-22T18:08:50Z" finished-at="2018-11-22T18:08:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initHelper -->
+        <test-method status="PASS" signature="close()[pri:0, instance:com.okjiaoyu.qa.teacherspace.cases.BaseCase@6e8dacdf]" name="close" is-config="true" duration-ms="95" started-at="2018-11-22T18:08:54Z" finished-at="2018-11-22T18:08:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- com.okjiaoyu.qa.teacherspace.cases.BaseCase -->
+      <class name="com.okjiaoyu.qa.teacherspace.cases.LoginCase">
+        <test-method status="PASS" signature="getUrl()[pri:0, instance:com.okjiaoyu.qa.teacherspace.cases.LoginCase@7a79be86]" name="getUrl" duration-ms="1071" started-at="2018-11-22T18:08:53Z" finished-at="2018-11-22T18:08:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getUrl -->
+      </class> <!-- com.okjiaoyu.qa.teacherspace.cases.LoginCase -->
+    </test> <!-- login -->
+  </suite> <!-- login case -->
+</testng-results>

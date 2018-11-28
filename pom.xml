@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+
+  <groupId>com.okjiaoyu.qa</groupId>
+  <artifactId>okjiaoyu-monitor</artifactId>
+  <version>1.0.0-SNAPSHOT</version>
+  <packaging>pom</packaging>
+
+  <modules>
+    <module>okjiaoyu-util</module>
+    <module>okjiaoyu-teacherspace</module>
+      <module>okjiaoyu-dubbo</module>
+  </modules>
+
+  <name>Maven</name>
+
+  <repositories>
+    <repository>
+      <id>okjiaoyu</id>
+      <name>okjiaoyu Repository</name>
+      <url>http://maven.okjiaoyu.cn/nexus/content/groups/public</url>
+      <releases>
+        <enabled>true</enabled>
+      </releases>
+      <snapshots>
+        <enabled>true</enabled>
+      </snapshots>
+      <layout>default</layout>
+    </repository>
+  </repositories>
+
+
+  <!--项目依赖的版本号统一管理-->
+  <properties>
+    <selenium.version>2.53.1</selenium.version>
+    <appium.version>4.1.2</appium.version>
+    <okjiaoyu-util.version>1.0.0-SNAPSHOT</okjiaoyu-util.version>
+  </properties>
+
+
+  <dependencyManagement>
+    <dependencies>
+      <dependency>
+        <groupId>dom4j</groupId>
+        <artifactId>dom4j</artifactId>
+        <version>1.6.1</version>
+      </dependency>
+      <dependency>
+        <groupId>log4j</groupId>
+        <artifactId>log4j</artifactId>
+        <version>1.2.17</version>
+      </dependency>
+      <dependency>
+        <groupId>org.seleniumhq.selenium</groupId>
+        <artifactId>selenium-java</artifactId>
+        <version>${selenium.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>io.appium</groupId>
+        <artifactId>java-client</artifactId>
+        <version>${appium.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>com.okjiaoyu.qa</groupId>
+        <artifactId>okjiaoyu-util</artifactId>
+        <version>${okjiaoyu-util.version}</version>
+      </dependency>
+      <!-- yaml解析包 -->
+      <dependency>
+        <groupId>org.yaml</groupId>
+        <artifactId>snakeyaml</artifactId>
+        <version>1.19</version>
+      </dependency>
+      <dependency>
+        <groupId>commons-beanutils</groupId>
+        <artifactId>commons-beanutils</artifactId>
+        <version>1.9.3</version>
+      </dependency>
+    </dependencies>
+  </dependencyManagement>
+</project>

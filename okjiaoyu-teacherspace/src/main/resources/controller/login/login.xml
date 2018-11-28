@@ -1,0 +1,8 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="login case" verbose="1" >
+    <test name = "login" >
+        <packages>
+            <package name="com.okjiaoyu.qa.teacherspace.cases"></package>
+        </packages>
+</test>
+</suite>

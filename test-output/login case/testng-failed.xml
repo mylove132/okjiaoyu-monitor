@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [login case]">
+  <test name="login(failed)">
+    <classes>
+      <class name="com.okjiaoyu.qa.teacherspace.cases.LoginCase">
+        <methods>
+          <include name="getUrl"/>
+          <include name="initHelper"/>
+          <include name="close"/>
+        </methods>
+      </class> <!-- com.okjiaoyu.qa.teacherspace.cases.LoginCase -->
+    </classes>
+  </test> <!-- login(failed) -->
+</suite> <!-- Failed suite [login case] -->

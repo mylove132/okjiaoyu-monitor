@@ -1,0 +1,24 @@
+  -
+   name: userNameEdit
+   type: ID
+   location: input-username
+   timeOut: 10
+   description: 登录输入框
+  -
+   name: passwordEdit
+   type: ID
+   location: input-password
+   timeOut: 10
+   description: 登录密码框
+  -
+   name: loginButton
+   type: CLASSNAME
+   location: btn-login
+   timeOut: 10
+   description: 登录按钮
+  -
+   name: newPasswordEdit
+   type: ID
+   location: new-password
+   timeOut: 10
+   description: 新密码输入框
